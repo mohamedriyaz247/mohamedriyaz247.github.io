@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Mohamed Riyaz — Computer Science, IT Support, Software Development and Data portfolio."
+  />
+
+  <title>Mohamed Riyaz — Computer Science Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+
+  <!-- ================= BACKGROUND ================= -->
+
+  <div class="cloud-bg"></div>
+
+
+  <!-- ================= NAVBAR ================= -->
+
+  <header class="site-header">
+
+    <nav class="nav glass">
+
+      <a href="#home" class="logo">
+        MOHAMED<span>RIYAZ</span>
+      </a>
+
+
+      <!-- Mobile Menu Button -->
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+
+      <!-- Navigation Links -->
+
+      <div class="nav-links" id="navLinks">
+
+        <a href="#work">
+          Work <small>[06]</small>
+        </a>
+
+        <a href="#services">
+          Services <small>[04]</small>
+        </a>
+
+        <a href="#experience">
+          Experience <small>[05]</small>
+        </a>
+
+        <a href="#contact">
+          Contact
+        </a>
+
+        <a class="pill dark" href="#contact">
+          Let's Talk ↗
+        </a>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+  <main>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="section hero" id="home">
+
+      <div class="hero-card glass">
+
+
+        <!-- Availability Status -->
+
+        <div class="status">
+          <i></i>
+          Open to Entry-Level Opportunities
+        </div>
+
+
+        <div class="hero-grid">
+
+
+          <!-- ================= HERO TEXT ================= -->
+
+          <div class="hero-copy">
+
+            <p class="eyebrow">
+              PYTHON • SQL • IT • DATA
+            </p>
+
+
+            <h1>
+              <span>MOHAMED</span>
+              <strong>RIYAZ</strong>
+            </h1>
+
+
+            <h2>
+              Data Scientist • IT Specialist & AI Engineer
+            </h2>
+
+
+            <p class="lead">
+              I’m a B.Tech Computer Science and Engineering graduate
+              interested in IT Support, Software Development, Data Analysis
+              and Data Science. I enjoy solving technical problems, learning
+              new technologies and building practical projects.
+            </p>
+
+
+            <!-- Hero Buttons -->
+
+            <div class="hero-actions">
+
+              <a href="#work" class="pill dark">
+                View My Work ↗
+              </a>
+
+              <a href="#contact" class="pill">
+                Let's Collaborate ↗
+              </a>
+
+            </div>
+
+          </div>
+
+
+
+          <!-- ================= PROFILE PHOTO ================= -->
+
+          <div class="hero-visual">
+
+            <div class="profile-frame">
+
+              <div class="profile-glow"></div>
+
+              <img
+                src="Riyaz Pro.jpeg"
+                alt="Mohamed Riyaz"
+                class="profile-photo"
+              >
+
+            </div>
+
+
+            <!-- Social Links -->
+
+            <div class="social-stack">
+
+              <a
+                href="https://github.com/mohamedriyaz247"
+                target="_blank"
+                rel="noopener"
+              >
+                ◉ GitHub
+              </a>
+
+
+              <a
+                href="https://www.linkedin.com/in/mohamedriyaz247"
+                target="_blank"
+                rel="noopener"
+              >
+                in LinkedIn
+              </a>
+
+
+              <a
+                href="https://www.instagram.com/iammohamedriyaz"
+                target="_blank"
+                rel="noopener"
+              >
+                ◎ Instagram
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= SELECTED WORK ================= -->
+
+    <section class="section" id="work">
+
+      <div class="section-card white-card">
+
+
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+
+          <div>
+
+            <p class="ghost-title">
+              PORTFOLIO
+            </p>
+
+            <h2>
+              /SELECTED WORK
+            </h2>
+
+          </div>
+
+
+          <a href="#contact" class="pill">
+            View All Work ↗
+          </a>
+
+        </div>
+
+
+
+        <!-- Project Filters -->
+
+        <div class="filters" id="filters">
+
+          <button
+            class="filter active"
+            data-filter="all"
+          >
+            All
+          </button>
+
+          <button
+            class="filter"
+            data-filter="real"
+          >
+            Real Project
+          </button>
+
+          <button
+            class="filter"
+            data-filter="exploration"
+          >
+            Exploration
+          </button>
+
+        </div>
+
+
+
+        <!-- ================= PROJECT GRID ================= -->
+
+        <div class="work-grid" id="workGrid">
+
+
+          <!-- PROJECT 1 -->
+
+          <article
+            class="project-card"
+            data-category="real"
+          >
+
+            <div class="project-image gradient-ai">
+
+              <span>NLP</span>
+
+              <div class="mock-window">
+
+                <b>AI DASHBOARD</b>
+
+                <div class="bars">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+              <h3>
+                IMDb Sentiment Analysis
+              </h3>
+
+              <p>
+                Sentiment classification project using TF-IDF and
+                multiple machine-learning models on the IMDb 50K dataset.
+              </p>
+
+              <div class="tags">
+                <span>Python</span>
+                <span>NLP</span>
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- PROJECT 2 -->
+
+          <article
+            class="project-card"
+            data-category="real"
+          >
+
+            <div class="project-image gradient-data">
+
+              <span>DATA</span>
+
+              <div class="mock-chart">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+              <h3>
+                Expense Tracker
+              </h3>
+
+              <p>
+                Command-line expense management application with
+                MySQL CRUD operations, categories, monthly filtering
+                and summaries.
+              </p>
+
+              <div class="tags">
+                <span>MySQL</span>
+                <span>Python</span>
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- PROJECT 3 -->
+
+          <article
+            class="project-card"
+            data-category="exploration"
+          >
+
+            <div class="project-image gradient-ml">
+
+              <span>
+                Python & OpenCV
+              </span>
+
+              <div class="node-map">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+              <h3>
+                Moving Object Detection
+              </h3>
+
+              <p>
+                Computer-vision project using Python and OpenCV
+                for detecting moving objects with background
+                subtraction and contours.
+              </p>
+
+              <div class="tags">
+                <span>Python</span>
+                <span>OpenCV</span>
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- PROJECT 4 -->
+
+          <article
+            class="project-card"
+            data-category="exploration"
+          >
+
+            <div class="project-image gradient-nlp">
+
+              <span>NLP</span>
+
+              <div class="terminal">
+
+                <p>
+                  &gt; summarize(text)
+                </p>
+
+                <p>
+                  &gt; sentiment = 0.94
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+              <h3>
+                Music Recommendation
+              </h3>
+
+              <p>
+                Recommendation project exploring Spotify track
+                data and similarity-based recommendations.
+              </p>
+
+              <div class="tags">
+                <span>Python</span>
+                <span>Pandas</span>
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- PROJECT 5 -->
+
+          <article
+            class="project-card"
+            data-category="real"
+          >
+
+            <div class="project-image gradient-genai">
+
+              <span>
+                Full Stack
+              </span>
+
+              <div class="chat-mock">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+              <h3>
+                Disney+ Hotstar Clone
+              </h3>
+
+              <p>
+                Front-end website project built during a Front End
+                internship using HTML and CSS in VS Code.
+              </p>
+
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- PROJECT 6 -->
+
+          <article
+            class="project-card"
+            data-category="real"
+          >
+
+            <div class="project-image gradient-agent">
+
+              <span>
+                ML
+              </span>
+
+              <div class="agent-flow">
+                <i>Plan</i>
+                <i>Tool</i>
+                <i>Act</i>
+              </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+              <h3>
+                Student Performance Analysis
+              </h3>
+
+              <p>
+                Data analysis and regression project focused on
+                exploring factors related to student performance.
+              </p>
+
+              <div class="tags">
+                <span>Python</span>
+                <span>Data Analysis</span>
+              </div>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= SERVICES ================= -->
+
+    <section class="section" id="services">
+
+      <div class="section-inner">
+
+        <p class="ghost-title dark-ghost">
+          SERVICES
+        </p>
+
+        <h2 class="big-title">
+          /SERVICES
+        </h2>
+
+
+        <div class="service-list">
+
+
+          <!-- SERVICE 1 -->
+
+          <article class="service active">
+
+            <button class="service-head">
+
+              <span>
+                IT SUPPORT & TROUBLESHOOTING
+              </span>
+
+              <b>×</b>
+
+            </button>
+
+
+            <div class="service-body">
+
+              <p>
+                Troubleshooting Windows systems, basic networking,
+                hardware/software issues and common end-user support tasks.
+              </p>
+
+              <div class="service-preview">
+                WINDOWS · NETWORKING · TROUBLESHOOTING
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- SERVICE 2 -->
+
+          <article class="service">
+
+            <button class="service-head">
+
+              <span>
+                DATA ANALYSIS & POWER BI
+              </span>
+
+              <b>↗</b>
+
+            </button>
+
+
+            <div class="service-body">
+
+              <p>
+                Working with Python, SQL, Excel and Power BI to clean
+                data, analyze information and create useful insights.
+              </p>
+
+              <div class="service-preview">
+                PYTHON · SQL · POWER BI
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- SERVICE 3 -->
+
+          <article class="service">
+
+            <button class="service-head">
+
+              <span>
+                SOFTWARE DEVELOPMENT
+              </span>
+
+              <b>↗</b>
+
+            </button>
+
+
+            <div class="service-body">
+
+              <p>
+                Building practical applications and web projects using
+                Python, HTML, CSS, JavaScript and SQL.
+              </p>
+
+              <div class="service-preview">
+                PYTHON · HTML · CSS · JS
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- SERVICE 4 -->
+
+          <article class="service">
+
+            <button class="service-head">
+
+              <span>
+                SYSTEMS & NETWORKING
+              </span>
+
+              <b>↗</b>
+
+            </button>
+
+
+            <div class="service-body">
+
+              <p>
+                Learning and applying networking fundamentals including
+                TCP/IP, DNS, DHCP, VPN, Wi-Fi, troubleshooting and basic
+                system administration.
+              </p>
+
+              <div class="service-preview">
+                TCP/IP · DNS · DHCP · WINDOWS
+              </div>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section class="section" id="experience">
+
+      <div class="experience-card dark-card">
+
+
+        <!-- Experience Heading -->
+
+        <div class="experience-top">
+
+          <div>
+
+            <p class="ghost-title dark-text">
+              Education & Experience
+            </p>
+
+            <h2>
+              /EXPERIENCE
+            </h2>
+
+          </div>
+
+          <span>
+            BUILDING • LEARNING • SHARING
+          </span>
+
+        </div>
+
+
+
+        <!-- Timeline -->
+
+        <div class="timeline">
+
+
+          <!-- EXPERIENCE 1 -->
+
+          <div class="timeline-row">
+
+            <div>
+
+              <h3>
+                IT & Data Science Trainee
+              </h3>
+
+              <p>
+                Python, SQL, Data Analysis & Machine Learning
+              </p>
+
+            </div>
+
+            <time>
+              May 2025 - March 2026
+            </time>
+
+          </div>
+
+
+
+          <!-- EXPERIENCE 2 -->
+
+          <div class="timeline-row">
+
+            <div>
+
+              <h3>
+                Front End Development Intern
+              </h3>
+
+              <p>
+                HTML, CSS & Javascript
+              </p>
+
+            </div>
+
+            <time>
+              June 2024 - July 2024
+            </time>
+
+          </div>
+
+
+
+          <!-- EXPERIENCE 3 -->
+
+          <div class="timeline-row">
+
+            <div>
+
+              <h3>
+                AI Intern
+              </h3>
+
+              <p>
+                Python & OpenCV
+              </p>
+
+            </div>
+
+            <time>
+              June 2023 - July 2023
+            </time>
+
+          </div>
+
+
+
+          <!-- EDUCATION -->
+
+          <div class="timeline-row">
+
+            <div>
+
+              <h3>
+                B.Tech Computer Science & Engineering
+              </h3>
+
+              <p>
+                B S Abdur Rahman Crescent Institute of Science
+                and Technology
+              </p>
+
+            </div>
+
+            <time>
+              2021 — 2025
+            </time>
+
+          </div>
+
+
+
+          <!-- CURRENT FOCUS -->
+
+          <div class="timeline-row">
+
+            <div>
+
+              <h3>
+                Current Focus
+              </h3>
+
+              <p>
+                IT Support, System Administration, Software & Data
+              </p>
+
+            </div>
+
+            <time>
+              Now
+            </time>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section
+      class="section contact-section"
+      id="contact"
+    >
+
+      <div class="contact-card white-card">
+
+
+        <div class="status">
+
+          <i></i>
+
+          Open to Entry-Level Opportunities
+
+        </div>
+
+
+        <p class="eyebrow">
+          LET'S BUILD SOMETHING
+        </p>
+
+
+        <h2>
+          HAVE A PROJECT<br>
+          IN MIND?
+        </h2>
+
+
+        <p class="lead">
+          I’m open to entry-level opportunities in IT Support,
+          System Administration, Software Development, Data Analysis
+          and Data Science.
+        </p>
+
+
+        <a
+          class="pill dark big-pill"
+          href="mailto:mdriyaz247@outlook.com"
+        >
+          Contact Me ↗
+        </a>
+
+
+
+        <!-- Social Links -->
+
+        <div class="contact-links">
+
+          <a
+            href="https://github.com/mohamedriyaz247"
+            target="_blank"
+            rel="noopener"
+          >
+            ◉ GitHub
+          </a>
+
+
+          <a
+            href="https://www.instagram.com/iammohamedriyaz"
+            target="_blank"
+            rel="noopener"
+          >
+            ◎ Instagram
+          </a>
+
+
+          <a
+            href="https://www.linkedin.com/in/mohamedriyaz247"
+            target="_blank"
+            rel="noopener"
+          >
+            in LinkedIn
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <div>
+      MOHAMED RIYAZ
+    </div>
+
+    <p>
+      Learn • Build • Improve
+    </p>
+
+    <p>
+      © <span id="year"></span>
+      Mohamed Riyaz. All rights reserved.
+    </p>
+
+  </footer>
+
+
+
+  <!-- JavaScript -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
