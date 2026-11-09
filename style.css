@@ -1604,3 +1604,133 @@ footer p {
     font-size: 52px;
   }
 }
+
+/* =====================================
+   NUVOTE ANDROID PROJECT
+===================================== */
+
+.gradient-nuvote {
+    background: linear-gradient(
+        135deg,
+        #142d24,
+        #245c43,
+        #8acb9c
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.gradient-nuvote > span {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.nuvote-preview {
+    width: 150px;
+    padding: 18px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.95);
+    color: #183b2a;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+.nuvote-preview h4 {
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+.nuvote-preview div {
+    padding: 9px;
+    margin-top: 8px;
+    border-radius: 8px;
+    background: #e5f2e8;
+    font-size: 11px;
+}
+
+/* =================================
+   RESPONSIVE DESIGN
+================================= */
+
+/* TABLETS */
+@media (max-width: 1024px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .hero {
+        gap: 30px;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* MOBILE DEVICES */
+@media (max-width: 768px) {
+
+    /* General */
+    .container {
+        width: 90%;
+    }
+
+    /* Navigation */
+    .nav-links {
+        display: none;
+    }
+
+    /* Hero section */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    /* Projects */
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact */
+    .contact-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+/* SMALL MOBILE DEVICES */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 92%;
+    }
+
+}
